@@ -1,1 +1,7 @@
 Test File 2 has Changes
+Chnages made by adeel
+public ActionResult index(){
+	var person = db.persons.tolist();
+	return View(person);
+}
+ 
